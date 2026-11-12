@@ -1,1 +1,40 @@
 /* Estilos do site */
+
+/* FONTES */
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400&family=Maname&family=Manrope:wght@400;800&family=Nunito:wght@700&display=swap");
+
+/* VARIAVEIS GLOBAIS */
+
+:root {
+    /* CORES */
+    --cor-fundo: #07161D;
+    --cor-painel: #253745;
+    --cor-texto: #ffffff;
+    --cor-borda: rgb(255 255 255 / 22%);
+    --cor-botao: rgb(5 16 22 / 50%);
+
+    /* Tipografia */
+   --fonte-titulos: "Cormorant Garamond", Georgia, serif;
+   --fonte-textos: "Manrope", Arial, sans-serif;
+   --fonte-chamada: "Nunito", Arial, sans-serif;
+   --fonte-legendas: "Maname", Georgia, serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Inclui bordas e preenchimentos nas medidas. */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: var(--fonte-textos);
+  font-size: 16px;
+  line-height: 1.5;
+}
